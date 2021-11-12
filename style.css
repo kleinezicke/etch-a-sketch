@@ -1,0 +1,13 @@
+#grid {
+    border: 5px solid black;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.box {
+    background-color: white;
+}
