@@ -10,6 +10,9 @@ function makeGrid(boxSize) {
         box.classList.add("box")
         box.style.height = boxSide + "px";
         box.style.width = boxSide + "px";
+        box.addEventListener ('mouseover', function(e) {
+            box.style.backgroundColor = "black";
+        })
         gridContainer.appendChild(box)
     }
 }

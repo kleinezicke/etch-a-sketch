@@ -8,6 +8,6 @@
     align-content: flex-start;
 }
 
-.box {
-    background-color: white;
+.hovered {
+    background-color: black;
 }
