@@ -18,3 +18,16 @@ function makeGrid(boxSize) {
 }
 
 gridContainer.onload = makeGrid(16);
+
+const resetBtn = document.querySelector("#reset")
+
+resetBtn.addEventListener("click", function(e) {
+
+    let boxes = gridContainer.getElementsByClassName("box");
+
+    for (i = 0, l = boxes.length; i < l; i++) {
+        
+        boxes[i].style.backgroundColor = "white"
+    }
+
+})
